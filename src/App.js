@@ -1,10 +1,11 @@
 export default function App() {
   return (
     <div>
-      <h1>Hellom there</h1>
-      <h2>Start coding</h2>
+      <Counter />
     </div>
   );
 }
 
-function Counter() {}
+function Counter() {
+  return <h1>Counter</h1>;
+}
