@@ -10,5 +10,11 @@ export default function App() {
 
 function Counter() {
   const [count, setCount] = useState(0);
-  return <h1>Counter</h1>;
+  return (
+    <div>
+      <div>
+        <span>Count: {count}</span>
+      </div>
+    </div>
+  );
 }
